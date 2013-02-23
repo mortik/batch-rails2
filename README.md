@@ -1,24 +1,34 @@
-# Batch::Rails2
+# Batch Webfont for Rails
 
-TODO: Write a gem description
+Basic integration for the Batch Webfont Icons found here [http://adamwhitcroft.com/batch/](http://adamwhitcroft.com/batch/)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'batch-rails2'
+```
+gem 'batch-rails2'
+```
 
 And then execute:
 
-    $ bundle
+```
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install batch-rails2
+```
+$ gem install batch-rails2
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+add the following to your application.css
+
+```
+*= require 'batch'
+```
 
 ## Contributing
 
