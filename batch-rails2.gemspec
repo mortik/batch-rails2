@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Marten Klitzke"]
   gem.email         = ["m.klitzke@gmail.com"]
   gem.description   = %q{Batch icons as a webfont for rails}
-  gem.summary       = %q{Batch icons as a webfont for rails}
+  gem.summary       = %q{Basic integration for the Batch Webfont Icons}
   gem.homepage      = "https://github.com/mortik/batch-rails2"
 
   gem.files         = `git ls-files`.split($/)
