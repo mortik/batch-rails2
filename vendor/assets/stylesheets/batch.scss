@@ -24,6 +24,7 @@
   -webkit-font-smoothing: antialiased;
 }
 
+@include i-class("at","151");
 @include i-class("speech-bubble-left","000");
 @include i-class("speech-bubble-center", "001");
 @include i-class("speech-bubble-right", "002");
@@ -66,9 +67,11 @@
 @include i-class("list-2", "029");
 @include i-class("in", "02a");
 @include i-class("out", "02b");
+@include i-class("options", "159");
 @include i-class("inbox", "02c");
 @include i-class("outbox", "02d");
 @include i-class("outgoing", "02e");
+@include i-class("outgoing-2", "156");
 @include i-class("paragraph-justify", "030");
 @include i-class("paragraph-left", "031");
 @include i-class("paragraph-center", "032");
@@ -89,8 +92,13 @@
 @include i-class("video", "042");
 @include i-class("user", "043");
 @include i-class("user-2", "044");
+@include i-class("user-2-add", "173");
+@include i-class("user-2-remove", "174");
 @include i-class("users", "045");
 @include i-class("user-3", "046");
+@include i-class("user-4", "170");
+@include i-class("user-4-add", "171");
+@include i-class("user-4-remove", "172");
 @include i-class("polaroid", "047");
 @include i-class("polaroid-2", "048");
 @include i-class("heart-full", "049");
@@ -99,6 +107,7 @@
 @include i-class("settings", "04c");
 @include i-class("settings-2", "04d");
 @include i-class("settings-3", "04e");
+@include i-class("settings-4", "17b");
 @include i-class("flask-full", "050");
 @include i-class("flask-empty", "051");
 @include i-class("toggle-on", "052");
@@ -107,6 +116,7 @@
 @include i-class("toggle-off-2", "055");
 @include i-class("bin", "056");
 @include i-class("bin-2", "057");
+@include i-class("bin-3", "155");
 @include i-class("stiffy", "058");
 @include i-class("floppy", "059");
 @include i-class("notes", "05a");
@@ -192,6 +202,8 @@
 @include i-class("refresh", "0b0");
 @include i-class("repeat", "0b1");
 @include i-class("repeat-2", "0b2");
+@include i-class("reply-all", "157");
+@include i-class("reply", "158");
 @include i-class("shuffle", "0b3");
 @include i-class("return", "0b4");
 @include i-class("wiggle", "0b5");
@@ -218,6 +230,9 @@
 @include i-class("mail-2", "0cb");
 @include i-class("mail-3", "0cc");
 @include i-class("mail-4", "150");
+@include i-class("mail-incoming", "154");
+@include i-class("mail-outgoing", "155");
+@include i-class("envelope", "153");
 @include i-class("address-book", "0cd");
 @include i-class("address-book-2", "0ce");
 @include i-class("book", "0d0");
@@ -325,4 +340,30 @@
 @include i-class("circle-add", "14c");
 @include i-class("minus-circle", "14d");
 @include i-class("cancel-circle", "14e");
-
+@include i-class("spam", "15a");
+@include i-class("spam-2", "15b");
+@include i-class("star", "15c");
+@include i-class("star-2", "15d");
+@include i-class("flag", "15e");
+@include i-class("flag-2", "160");
+@include i-class("home", "161");
+@include i-class("home-2", "162");
+@include i-class("home-3", "163");
+@include i-class("tick", "164");
+@include i-class("cross", "165");
+@include i-class("alarm-clock", "166");
+@include i-class("stopwatch", "167");
+@include i-class("previous", "168");
+@include i-class("rewind", "169");
+@include i-class("stop", "16a");
+@include i-class("play", "16b");
+@include i-class("pause", "16c");
+@include i-class("fast-forward", "16d");
+@include i-class("next", "16e");
+@include i-class("fork", "175");
+@include i-class("pull", "176");
+@include i-class("commit", "177");
+@include i-class("watch", "178");
+@include i-class("watch-2", "179");
+@include i-class("unwatch", "17a");
+@include i-class("revert", "17c");

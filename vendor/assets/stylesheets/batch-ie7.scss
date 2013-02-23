@@ -7,6 +7,7 @@
   font-style: normal;
 }
 
+@include ie-class("at","151");
 @include ie-class("speech-bubble-left","000");
 @include ie-class("speech-bubble-center", "001");
 @include ie-class("speech-bubble-right", "002");
@@ -49,9 +50,11 @@
 @include ie-class("list-2", "029");
 @include ie-class("in", "02a");
 @include ie-class("out", "02b");
+@include ie-class("options", "159");
 @include ie-class("inbox", "02c");
 @include ie-class("outbox", "02d");
 @include ie-class("outgoing", "02e");
+@include ie-class("outgoing-2", "156");
 @include ie-class("paragraph-justify", "030");
 @include ie-class("paragraph-left", "031");
 @include ie-class("paragraph-center", "032");
@@ -72,8 +75,13 @@
 @include ie-class("video", "042");
 @include ie-class("user", "043");
 @include ie-class("user-2", "044");
+@include ie-class("user-2-add", "173");
+@include ie-class("user-2-remove", "174");
 @include ie-class("users", "045");
 @include ie-class("user-3", "046");
+@include ie-class("user-4", "170");
+@include ie-class("user-4-add", "171");
+@include ie-class("user-4-remove", "172");
 @include ie-class("polaroid", "047");
 @include ie-class("polaroid-2", "048");
 @include ie-class("heart-full", "049");
@@ -82,6 +90,7 @@
 @include ie-class("settings", "04c");
 @include ie-class("settings-2", "04d");
 @include ie-class("settings-3", "04e");
+@include ie-class("settings-4", "17b");
 @include ie-class("flask-full", "050");
 @include ie-class("flask-empty", "051");
 @include ie-class("toggle-on", "052");
@@ -90,6 +99,7 @@
 @include ie-class("toggle-off-2", "055");
 @include ie-class("bin", "056");
 @include ie-class("bin-2", "057");
+@include ie-class("bin-3", "155");
 @include ie-class("stiffy", "058");
 @include ie-class("floppy", "059");
 @include ie-class("notes", "05a");
@@ -175,6 +185,8 @@
 @include ie-class("refresh", "0b0");
 @include ie-class("repeat", "0b1");
 @include ie-class("repeat-2", "0b2");
+@include ie-class("reply-all", "157");
+@include ie-class("reply", "158");
 @include ie-class("shuffle", "0b3");
 @include ie-class("return", "0b4");
 @include ie-class("wiggle", "0b5");
@@ -201,6 +213,9 @@
 @include ie-class("mail-2", "0cb");
 @include ie-class("mail-3", "0cc");
 @include ie-class("mail-4", "150");
+@include ie-class("mail-incoming", "154");
+@include ie-class("mail-outgoing", "155");
+@include ie-class("envelope", "153");
 @include ie-class("address-book", "0cd");
 @include ie-class("address-book-2", "0ce");
 @include ie-class("book", "0d0");
@@ -308,3 +323,30 @@
 @include ie-class("circle-add", "14c");
 @include ie-class("minus-circle", "14d");
 @include ie-class("cancel-circle", "14e");
+@include ie-class("spam", "15a");
+@include ie-class("spam-2", "15b");
+@include ie-class("star", "15c");
+@include ie-class("star-2", "15d");
+@include ie-class("flag", "15e");
+@include ie-class("flag-2", "160");
+@include ie-class("home", "161");
+@include ie-class("home-2", "162");
+@include ie-class("home-3", "163");
+@include ie-class("tick", "164");
+@include ie-class("cross", "165");
+@include ie-class("alarm-clock", "166");
+@include ie-class("stopwatch", "167");
+@include ie-class("previous", "168");
+@include ie-class("rewind", "169");
+@include ie-class("stop", "16a");
+@include ie-class("play", "16b");
+@include ie-class("pause", "16c");
+@include ie-class("fast-forward", "16d");
+@include ie-class("next", "16e");
+@include ie-class("fork", "175");
+@include ie-class("pull", "176");
+@include ie-class("commit", "177");
+@include ie-class("watch", "178");
+@include ie-class("watch-2", "179");
+@include ie-class("unwatch", "17a");
+@include ie-class("revert", "17c");
