@@ -1,7 +1,3 @@
-$fontFileName: "/assets/batch";
-$fontName: "batch";
-$classPrefix: "batch-";
-
 @mixin i-class($name,$pua) {
   .#{$classPrefix}#{$name}:before { 
     content: "\f#{$pua}";

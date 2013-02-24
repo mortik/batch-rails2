@@ -5,7 +5,7 @@ require 'batch-rails2/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "batch-rails2"
-  gem.version       = Batch::VERSION
+  gem.version       = BatchRails2::VERSION
   gem.authors       = ["Marten Klitzke"]
   gem.email         = ["m.klitzke@gmail.com"]
   gem.description   = %q{Batch icons as a webfont for rails}

@@ -30,6 +30,22 @@ add the following to your application.css
 *= require 'batch'
 ```
 
+and then in your markup
+
+```
+<i class="batch-*"></i>
+```
+
+where * stands for the name of the icon.
+
+You can also override the prefix "batch-" with an initializer:
+
+```
+BatchRails2.setup do |config|
+  config.prefix = "icon-"
+end
+```
+
 ## Contributing
 
 1. Fork it

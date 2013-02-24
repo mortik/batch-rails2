@@ -1,3 +1,3 @@
-module Batch
-  VERSION = "0.0.2"
+module BatchRails2
+  VERSION = "0.0.3"
 end

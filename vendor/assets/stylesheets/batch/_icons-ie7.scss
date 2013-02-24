@@ -1,5 +1,3 @@
-@import "batch/settings";
-
 /* general icons for IE7 */
 [class*="#{$classPrefix}"] {
   font-family: $fontName;
@@ -7,6 +5,7 @@
   font-style: normal;
 }
 
+/* icons */
 @include ie-class("at","151");
 @include ie-class("speech-bubble-left","000");
 @include ie-class("speech-bubble-center", "001");

@@ -1,5 +1,3 @@
-@import "batch/settings";
-
 /* font-face */
 @include face;
 
@@ -24,6 +22,7 @@
   -webkit-font-smoothing: antialiased;
 }
 
+/* icons */
 @include i-class("at","151");
 @include i-class("speech-bubble-left","000");
 @include i-class("speech-bubble-center", "001");
