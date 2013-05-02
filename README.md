@@ -1,4 +1,5 @@
 # Batch Webfont for Rails
+[![Build Status](https://travis-ci.org/mortik/batch-rails2.png?branch=master)](https://travis-ci.org/mortik/batch-rails2)
 [![Gem Version](https://badge.fury.io/rb/batch-rails2.png)](http://badge.fury.io/rb/batch-rails2)
 
 Basic integration for the Batch Webfont Icons found here [http://adamwhitcroft.com/batch/](http://adamwhitcroft.com/batch/)
