@@ -10,11 +10,11 @@ class SettingsTest < ActiveSupport::TestCase
   end
 
   test 'uses default settings in css files' do
-    assert_equal "[class*=\"default-\"] {\n  display: inline; }\n", @env["settings.scss"].to_s
+    assert_match /class\*="default-"/, @env["settings.scss"].to_s
   end
 
   test 'uses custom settings in css files' do
     BatchRails2.prefix = "custom-"
-    assert_equal "[class*=\"custom-\"] {\n  display: inline; }\n", @env["settings.scss"].to_s
+    assert_match /class\*="custom-"/, @env["settings.scss"].to_s
   end
 end
